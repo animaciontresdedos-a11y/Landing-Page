@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Departamentos Atzala | Tu nuevo hogar en Cholula</title>
+<style>
+:root {
+--primary-color: #2c3e50; /* Azul oscuro elegante / --accent-color: #bfa37e; / Dorado/Madera suave */
+--bg-light: #f9f9f9;
+--text-dark: #333;
+}
+    body {
+       margin: 0;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       background: var(--bg-light);
+       color: var(--text-dark);
+       line-height: 1.6;
+   }
+
+   .hero {
+       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                   url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1920&q=80');
+       background-size: cover;
+       background-position: center;
+       color: white;
+       text-align: center;
+       padding: 120px 20px;
+   }
+
+   .hero h1 {
+       font-size: 48px;
+       max-width: 800px;
+       margin: auto;
+       line-height: 1.2;
+       text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+   }
+
+   .hero p {
+       font-size: 20px;
+       margin-top: 20px;
+   }
+
+   .section {
+       padding: 80px 10%;
+   }
+
+   .container {
+       display: flex;
+       align-items: center;
+       gap: 50px;
+       flex-wrap: wrap;
+   }
+
+   .car-img {
+       flex: 1;
+       min-width: 300px;
+   }
+
+   .car-img img {
+       width: 100%;
+       border-radius: 8px;
+       box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+   }
+
+   .info {
+       flex: 1;
+       background: white;
+       padding: 50px;
+       border-radius: 8px;
+       box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+   }
+
+   .info h2 {
+       color: var(--primary-color);
+       margin-bottom: 25px;
+       font-size: 28px;
+       border-bottom: 3px solid var(--accent-color);
+       display: inline-block;
+   }
+
+   .info ul {
+       padding-left: 20px;
+       list-style: none;
+   }
+
+   .info ul li {
+       margin-bottom: 15px;
+       position: relative;
+   }
+
+   .info ul li::before {
+       content: "✓";
+       color: var(--accent-color);
+       font-weight: bold;
+       position: absolute;
+       left: -25px;
+   }
+
+   .highlight {
+       margin-top: 30px;
+       font-weight: bold;
+       color: var(--primary-color);
+       font-size: 22px;
+   }
+
+   .cta {
+       text-align: center;
+       padding: 80px 20px;
+       background: var(--primary-color);
+       color: white;
+   }
+
+   .cta h2 {
+       margin-bottom: 30px;
+   }
+
+   .cta button {
+       background: var(--accent-color);
+       border: none;
+       color: white;
+       padding: 20px 50px;
+       font-size: 20px;
+       border-radius: 50px;
+       cursor: pointer;
+       font-weight: bold;
+       transition: transform 0.3s, background 0.3s;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+   }
+
+   .cta button:hover {
+       background: #a68b65;
+       transform: scale(1.05);
+   }
+
+   footer {
+       background: #1a252f;
+       color: #bdc3c7;
+       text-align: center;
+       padding: 30px;
+   }
+
+   @media (max-width: 768px) {
+       .hero h1 { font-size: 32px; }
+       .section { padding: 40px 5%; }
+       .info { padding: 30px; }
+   }
+</style>
+
+</head>
+<body>
+<section class="hero">
+   <h1>Vive la exclusividad y el confort en Departamentos Atzala</h1>
+   <p>Tu espacio ideal en el corazón de Cholula, Puebla.</p>
+</section>
+
+<section class="section">
+   <div class="container">
+       <div class="car-img">
+           <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80" alt="Interior Departamentos Atzala">
+       </div>
+
+       <div class="info">
+           <h2>Amenidades y Beneficios</h2>
+           <ul>
+               <li>Ubicación privilegiada cerca de la UDLAP</li>
+               <li>Seguridad privada y control de acceso 24/7</li>
+               <li>Acabados de lujo y diseño contemporáneo</li>
+               <li>Roof garden con vista a la pirámide</li>
+               <li>Estacionamiento techado independiente</li>
+           </ul>
+           <p class="highlight">
+               Desde $1,800,000 MXN
+           </p>
+           <p>Invierte en tu futuro o estrena el departamento de tus sueños hoy mismo.</p>
+       </div>
+   </div>
+</section>
+
+<section class="cta">
+   <h2>¿Quieres conocer tu próximo hogar?</h2>
+   <a href="https://wa.me/522225862514?text=Hola,%20me%20interesa%20recibir%20información%20sobre%20los%20Departamentos%20Atzala%20en%20Cholula" target="_blank">
+       <button>Solicitar una Visita</button>
+   </a>
+</section>
+
+<footer>
+   <p>Departamentos Atzala Cholula • Diseño y Confort Urbano</p>
+   <p style="font-size: 0.8em;">© 2024 Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
